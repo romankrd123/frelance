@@ -5,7 +5,7 @@ import random
 
 
 
-bot = telebot.TeleBot('5552582819:AAEGcTghEs-5jkP9WAZYNQabMXWP7qT0aO0')
+bot = telebot.TeleBot('APIbot')
 @bot.message_handler(commands=['start'])
 
 def welcome(message):
